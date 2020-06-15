@@ -9,6 +9,12 @@ This project was completed as part of Udacity's "[Programming for Data Science w
 * `bikeshare.py`
 * CSV data files (not tracked in Git). Bikeshare data needs to follow the [General Bikeshare Feed Specification (GBFS)](https://nabsa.net/resources/gbfs/).
 
+## Extend
+Currently this program handles data for Chicago, NYC, and Washington, DC. To add a city, follow these steps:
+
+1. Find bikeshare data in CSV format for your desired city. GBFS lists these on [GitHub](https://github.com/NABSA/gbfs/blob/master/systems.csv).
+2. Download the city bikeshare data CSV to this project directory, then modify the `CITY_DATA` dictionary and `get_filters` function to include the new city option.
+
 ## Run the program
 
 - Clone this repository to your local machine.

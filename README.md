@@ -7,7 +7,7 @@ This project was completed as part of Udacity's "[Programming for Data Science w
 
 ## Files used
 * `bikeshare.py`
-* CSV data files (not tracked in Git)
+* CSV data files (not tracked in Git). Bikeshare data needs to follow the [General Bikeshare Feed Specification (GBFS)](https://nabsa.net/resources/gbfs/).
 
 ## Run the program
 

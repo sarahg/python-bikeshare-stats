@@ -3,7 +3,7 @@ _Created 6/15/2020_
 
 Interactive Python script to analyze bikeshare data from Chicago, NYC, and Washington, DC.
 
-This project was completed as part of Udacity's "Programming for Data Science with Python" Nanodegree Program.
+This project was completed as part of Udacity's "[Programming for Data Science with Python](https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104)" Nanodegree Program.
 
 ## Files used
 * `bikeshare.py`

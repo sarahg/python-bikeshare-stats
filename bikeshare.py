@@ -2,6 +2,7 @@ import time
 import calendar
 import pandas as pd
 
+CSV_PATH = './csvs/'
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -66,7 +67,7 @@ def load_data(city, month, day):
     """
     
     # Load data file into a dataframe.
-    df = pd.read_csv(CITY_DATA[city])
+    df = pd.read_csv(CSV_PATH + CITY_DATA[city])
 
     # Convert the Start Time column to datetime.
     df['Start Time'] = pd.to_datetime(df['Start Time'])

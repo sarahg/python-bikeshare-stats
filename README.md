@@ -15,6 +15,8 @@ Currently this program handles data for Chicago, NYC, and Washington, DC. To add
 1. Find bikeshare data in CSV format for your desired city. GBFS lists these on [GitHub](https://github.com/NABSA/gbfs/blob/master/systems.csv).
 2. Download the city bikeshare data CSV to this project directory, then modify the `CITY_DATA` dictionary and `get_filters` function to include the new city option.
 
+_Note: Column headers and data formats may vary slightly from city to city. You may need to manually edit the CSV or modify more code to make this work._
+
 ## Run the program
 
 - Clone this repository to your local machine.

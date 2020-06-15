@@ -2,6 +2,7 @@ import time
 import calendar
 import pandas as pd
 
+CSV_PATH = './csvs/'
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -16,7 +17,7 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
-    print('Hello! Let\'s explore some US bikeshare data!')
+    print('Hello! Let\'s explore some US bikeshare data.')
 
     # Get user input for city.
     while True:
@@ -66,7 +67,7 @@ def load_data(city, month, day):
     """
     
     # Load data file into a dataframe.
-    df = pd.read_csv(CITY_DATA[city])
+    df = pd.read_csv(CSV_PATH + CITY_DATA[city])
 
     # Convert the Start Time column to datetime.
     df['Start Time'] = pd.to_datetime(df['Start Time'])
